@@ -1,0 +1,54 @@
+body {
+    font-family: "Baskervville SC", serif;
+    text-align: center;
+    background-image: url('img/brickwall.png');
+}
+
+h1 {
+    color:lightgray;
+    font-size: 48px;
+}
+
+#game-container {
+    margin: 0px auto;
+    width: 800px;
+    height: 730px;
+    border: 15px solid #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+.tile {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+
+.wall {
+    background-image: url(img/map/brick.png);
+}
+
+.floor {
+    background-image: url(img/map/floor.png);
+}
+
+.player {
+    background-image: url(img/chars/knight.png);
+}
+
+.enemy {
+    background-image: url(img/chars/orc.png);
+}
+
+.item {
+    background-image: url(img/map/gold.png);
+}
